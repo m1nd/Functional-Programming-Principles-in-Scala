@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0m[32mListsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is two[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is three?[0m[0m
+[0m[[0minfo[0m] [0m[32m- details why one plus one is not three[0m[0m
+[0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of zeros[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of negatives[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of empty list[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of repeat numbers[0m[0m
+[0m[[0minfo[0m] [0m[31m- max of empty list *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.util.NoSuchElementException: head of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.head(List.scala:420)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.head(List.scala:417)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.Lists$.max(Lists.scala:49)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$11.apply$mcV$sp(ListsSuite.scala:141)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$11.apply(ListsSuite.scala:141)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$11.apply(ListsSuite.scala:141)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of negatives[0m[0m
